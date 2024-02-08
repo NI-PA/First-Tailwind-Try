@@ -12,7 +12,7 @@ navBtn.addEventListener("click", () => {
   menuBar.classList.toggle("flex");
 });
 
-// gsap.from(".container", { duration: 3, y: "-100%", ease: "bounce" });
+// gsap.from(".container", { duration: 3, y: "-100%", ease: "bounce"});
 
 gsap.from("nav", { duration: 2, y: "-400%", ease: "bounce" });
 
