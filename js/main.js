@@ -2,7 +2,7 @@
 console.log("Starts!");
 
 const navBtn = document.querySelector("#menu");
-const menuBar = document.querySelector('[role= "menu-bar"]');
+const menuBar = document.querySelector('[role = "menu-bar"]');
 
 navBtn.addEventListener("click", () => {
   const isExpanded = JSON.parse(navBtn.getAttribute("aria-expanded"));
