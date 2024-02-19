@@ -14,7 +14,7 @@ navBtn.addEventListener("click", () => {
 
 // gsap.from(".container", { duration: 3, y: "-100%", ease: "bounce"});
 
-gsap.from("nav", { duration: 2, y: "-300%", ease: "bounce" });
+gsap.from("nav", { duration: 2, y: "-200%", ease: "bounce" });
 
 setTimeout(() => {
   gsap.from("section", { duration: 3, y: "-250%", ease: "elastic" });
