@@ -9,7 +9,7 @@ navBtn.addEventListener("click", () => {
   navBtn.setAttribute("aria-expanded", !isExpanded);
   gsap.from(".menu-container", { duration: 0.6, y: "-200% ", ease: "power2" });
   menuBar.classList.toggle("hidden");
-  menuBar.classList.toggle("flex");
+  menuBar.classList.toggle("flex" );
 });
 
 // gsap.from(".container", { duration: 3, y: "-100%", ease: "bounce"});
